@@ -1,0 +1,69 @@
+body {
+    padding-top: 80px;
+    background-color: beige;
+}
+
+#trailer .modal-dialog {
+    margin-top: 20%;
+    margin-left:33%;
+    width: 40%;
+    height: 35%;
+}
+
+.hanging-close {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    z-index: 9001;
+}
+
+#trailer-video {
+    width: 100%;
+    height: 100%;
+}
+
+.movie-tile {
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.movie-tile:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.play-icon {
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    z-index: 90;
+    width: 20%;
+    display:none;
+
+}
+
+.play-icon img {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+.play-icon:hover {
+    display: block;
+
+}
+
+.scale-media {
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.scale-media iframe {
+    border: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
