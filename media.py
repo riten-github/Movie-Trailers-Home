@@ -2,12 +2,15 @@ import webbrowser
 
 
 class Movie():
-    """ This class defines movie attributes """
-    def __init__(self, movie_title, movie_storyLine, poster_image, trailer_youtube):
-        self.title = movie_title
-        self.storyline = movie_storyLine
-        self.poster_image_url = poster_image
-        self.trailer_youtube_url = trailer_youtube
+    """ This class stores  movie related information"""
+    def __init__(self, title, storyLine, boxart, trailer):
+        """ This function initializes movie title,storyline,box art
+            and trailer information"""
+        self.title = title
+        self.storyline = storyLine
+        self.poster_image_url = boxart
+        self.trailer_youtube_url = trailer
+
 
    
      
